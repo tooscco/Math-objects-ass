@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    font-family: "Lora", serif !important;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: italic;
+}
+
+.firDiv{
+    background-image: url(image/harli-marten-M9jrKDXOQoU-unsplash.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -100px;
+}
+
+.formDiv{
+    padding-top: 100px;
+}
+
+.formDivSec, .formDivFir{
+    width: 49%;
+}
+
+/* .formDivSec{
+    position: relative;
+    top: -60px;
+    left: 330px;
+} */
+
+.btn{
+    opacity: 0.75;
+    background: linear-gradient(#52585e, #9e5e4e);
+    border: none !important;
+    color: whitesmoke !important;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+input{
+   box-shadow: none !important;
+}
+
+h4{
+    color: rgb(181, 178, 178) !important;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 35px !important;
+}
+
+.labelDiv{
+    color: rgb(224, 219, 219) !important;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#show{
+    margin-top: 120px;
+    color: rgb(240, 237, 237) !important;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 45px;
+}
+
+#err, #show, #tee{
+    display: none;
+}
